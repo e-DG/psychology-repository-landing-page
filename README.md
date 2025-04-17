@@ -1,0 +1,2 @@
+This is just a landing page. The landing page is going to be inspired in a psychology directory where you can connect with therapists or promote yourself as one, looking for jobs.
+This is just an example and it is not based in any real page. 
