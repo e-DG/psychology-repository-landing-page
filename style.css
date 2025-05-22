@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header, footer {
+    background-color: #2973B2;
+    display: flex;
+}
+
+header {
+    box-sizing: border-box;
+    flex-direction: column;
+    justify-content:space-between;
+    padding: 15px 250px 80px;
+    height: 500px;
+}
+
+.menu, .links, .main {
+    display: flex;
+    gap: 50px;
+    justify-content: space-between;
+}
+
+img {
+    height: 250px;
+    width: auto;
+}
