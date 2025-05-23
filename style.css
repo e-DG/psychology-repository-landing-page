@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    /* border: 1px solid red; */
 }
 
 header, footer {
@@ -14,15 +15,46 @@ header {
     justify-content:space-between;
     padding: 15px 250px 80px;
     height: 500px;
+    color: #F2EFE7;
 }
 
-.menu, .links, .main {
+a {
+    color: #F2EFE7;
+    text-decoration: none;
+}
+
+.brand {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
+.logo {
+    height: 30px;
+    width: auto;
+    border-radius: 50px;
+}
+
+.menu, .links, .main{
     display: flex;
     gap: 50px;
     justify-content: space-between;
 }
 
-img {
-    height: 250px;
+.main-right {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+.main-text {
+    font-weight: 900;
+    font-size: 42px;
+}
+
+.main img {
+    height: 270px;
     width: auto;
+    border: 5px solid #48A6A7;
 }
