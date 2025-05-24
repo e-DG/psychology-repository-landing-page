@@ -84,3 +84,37 @@ button {
     width: auto;
     /* border: 5px solid #48A6A7; */
 }
+
+/* Directory */
+
+.directory, .services, .service {
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+    gap: 50px;
+}
+
+.directory {
+    height: 300px;
+    flex-direction: column;
+    padding: 100px;
+}
+
+.service {
+    flex-direction: column;
+    gap: 25px;
+}
+
+.service img {
+    height: 200px;
+    width: 200px;
+    border-radius: 5%;
+    border: 5px solid #9ACBD0;
+    background-color: #F2EFE7;
+}
+
+/* Reviews */
+
+.reviews {
+    background-color: #9ACBD0;
+}
