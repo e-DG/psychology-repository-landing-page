@@ -17,8 +17,8 @@ header {
     box-sizing: border-box;
     flex-direction: column;
     justify-content:space-between;
-    padding: 15px 250px 80px;
-    height: 515px;
+    padding: 25px 250px 100px;
+    height: 550px;
 }
 
 h2 {
