@@ -21,6 +21,11 @@ header {
     height: 515px;
 }
 
+h2 {
+    font-size: 35px;
+    font-weight: bold;
+}
+
 footer {
     height: 100px;
     align-items: center;
@@ -96,8 +101,9 @@ button {
 
 .directory {
     height: 300px;
+    justify-content: center;
     flex-direction: column;
-    padding: 100px;
+    padding: 120px 100px 100px;
 }
 
 .service {
@@ -109,7 +115,7 @@ button {
     height: 200px;
     width: 200px;
     border-radius: 5%;
-    border: 5px solid #9ACBD0;
+    border: 3px solid #2973B2;
     background-color: #F2EFE7;
 }
 
