@@ -115,6 +115,10 @@ button {
     padding: 120px 100px 100px;
 }
 
+.services {
+    flex-wrap: wrap;
+}
+
 .service {
     flex-direction: column;
     gap: 25px;
