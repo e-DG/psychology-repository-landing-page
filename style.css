@@ -14,6 +14,7 @@ body {
     border: 0;
     display: flex;
     flex-direction: column;
+    gap: 50px;
 }
 
 header, footer {
@@ -23,11 +24,11 @@ header, footer {
 }
 
 header {
-    box-sizing: content-box;
     flex-direction: column;
-    justify-content:space-between;
-    padding: 25px 250px 100px;
+    justify-content: space-between;
+    padding: 0px 250px;
     height: 550px;
+    flex-wrap: wrap;
 }
 
 h2 {
@@ -67,14 +68,25 @@ button {
     border-radius: 50px;
 }
 
-.menu, .links, .main{
+.menu {
+    margin-top: 20px;
+}
+
+.main {
+    margin-bottom: 60px;
+}
+
+.menu, .main{
     display: flex;
     gap: 50px;
     justify-content: space-between;
 }
 
 .links {
+    display: flex;
     align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
 }
 
 .main-left {
@@ -113,6 +125,7 @@ button {
     justify-content: center;
     flex-direction: column;
     padding: 120px 100px 100px;
+    color: #2973B2;
 }
 
 .services {
